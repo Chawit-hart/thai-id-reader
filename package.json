@@ -1,0 +1,42 @@
+{
+  "name": "thai-id-reader",
+  "version": "1.0.0",
+  "description": "Node.js library for reading Thai national ID cards using PC/SC smart card readers.",
+  "homepage": "https://github.com/Chawit-hart/thai-id-reader#readme",
+  "bugs": {
+    "url": "https://github.com/Chawit-hart/thai-id-reader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chawit-hart/thai-id-reader.git"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "data/"
+  ],
+  "license": "MIT",
+  "author": "Chawit Tanachochaow",
+  "type": "commonjs",
+  "main": "index.js",
+  "keywords": [
+    "thai-id",
+    "smartcard",
+    "pcsc",
+    "บัตรประชาชน",
+    "electron",
+    "identification",
+    "reader",
+    "citizen",
+    "id card",
+    "thailand"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "iconv-lite": "^0.6.3",
+    "pcsclite": "^1.0.1"
+  }
+}
